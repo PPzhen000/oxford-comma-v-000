@@ -7,7 +7,7 @@ def oxford_comma(array)
     result = array.join(', ') + " and #{arr}"
   else
     arr = array.pop()
-    array.join(', ') + ", and #{arr}"
+    result = array.join(', ') + ", and #{arr}"
   end
   return result
 end
